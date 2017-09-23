@@ -1,0 +1,8 @@
+package twitterClientAPI;
+
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+
+public interface BasicFunctions {
+	void updateStatus() throws Twitter twitter = twitterFactory.getInstance();;
+}

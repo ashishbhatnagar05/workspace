@@ -1,0 +1,19 @@
+package enumForProject;
+
+public enum KeyAndTokens {
+
+	// Your Twitter App's Consumer Key
+	consumerKey("zlWf2wKz1eHuAE1fRLTzkQacG"),
+
+	// Your Twitter App's Consumer Secret
+	consumerSecret("CMPiBeEgx7rRydINueQczqrKQHAd6o3Lss9Eyk3sAuSA1wmqa1"),
+
+	// Your Twitter Access Token
+	accessToken("2468039048-LNK5kHswGJad460zQrl2ZUngCOVTWHDV1poqBeU"),
+
+	// Your Twitter Access Token Secret
+	accessTokenSecret("GXiPDSwV2qhWGXYcntoAjyGF3jafNQr02Xjekoxb7kzsG");
+
+	private String KeyAndTokens;
+	
+}

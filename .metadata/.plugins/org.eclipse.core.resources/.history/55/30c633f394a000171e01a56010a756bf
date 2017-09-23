@@ -1,0 +1,6 @@
+package com.ashish.log4j.utils;
+
+public class ConsoleLogger {
+
+	
+}

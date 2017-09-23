@@ -1,0 +1,7 @@
+package twitterClientAPI;
+
+
+
+public interface BasicFunctions throws TwitterException{
+	void updateStatus();
+}

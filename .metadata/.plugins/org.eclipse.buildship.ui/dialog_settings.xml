@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item value="D:\angularjs\EclipseAngularSpring\linked-in-learning-full-stack-app-angular-spring-boot" key="project_location"/>
+	</section>
+</section>

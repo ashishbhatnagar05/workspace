@@ -1,0 +1,12 @@
+package twitterClientAPIImpl;
+
+import twitterClientAPI.BasicFunctions;
+
+public class BasicFunctionsImpl implements BasicFunctions {
+
+	@Override
+	public void updateStatus() {
+
+	}
+
+}

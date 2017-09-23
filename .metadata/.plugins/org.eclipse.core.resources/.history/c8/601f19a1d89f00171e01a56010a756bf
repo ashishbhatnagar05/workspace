@@ -1,0 +1,19 @@
+package twitterClientAPIImpl;
+
+import twitter4j.Status;
+import twitter4j.Twitter;
+import twitterClientAPI.BasicFunctions;
+
+public class BasicFunctionsImpl implements BasicFunctions {
+
+
+	
+	@Override
+	public void updateStatus() {
+		Twitter twitter = tf.getInstance();
+
+		Status status = twitter.updateStatus("Hi this is #javabot");
+		System.out.println("Successfully updated the status to [" + status.getText() + "].");
+	}
+
+}

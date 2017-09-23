@@ -1,0 +1,5 @@
+package com.linkedin.learning.angularspringboot.config;
+
+public class ApiConfig {
+
+}

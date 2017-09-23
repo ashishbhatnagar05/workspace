@@ -1,0 +1,7 @@
+package twitterClientAPI;
+
+import scala.throws;
+
+public interface BasicFunctions throws TwitterException{
+	void updateStatus();
+}

@@ -1,0 +1,36 @@
+package twitterClientAPIImpl;
+
+import java.io.IOException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import twitter4j.Status;
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
+import twitterClientAPI.BasicFunctions;
+import twitterConfigurationBuilder.ConfigBuilder;
+
+public class BasicFunctionsImpl implements BasicFunctions {
+
+	public TwitterFactory twitterFactory;
+
+	@Autowired
+	public BasicFunctionsImpl(TwitterFactory twitterFactory) {
+		super();
+		this.twitterFactory = twitterFactory;
+	}
+
+	public BasicFunctionsImpl() {
+		super();
+	}
+
+	@Override
+	public void updateStatus() throws Exception {
+		//Twitter twitter = twitterFactory.getInstance();
+		Twitter twitter = new ConfigBuilder().twitterFactory().getInstance();
+		Status status = twitter.updateStatus("Hi this is #javabot");
+		System.out.println("Successfully updated the status to [" + status.getText() + "].");
+	}
+
+}

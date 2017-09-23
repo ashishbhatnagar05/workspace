@@ -1,0 +1,9 @@
+package com.linkedin.learning.model.response;
+
+public class ReservationResponse {
+private Long id;
+private Integer roomNumber;
+private Integer price;
+private Links links;
+
+}

@@ -1,0 +1,16 @@
+package twitterClientRunner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import twitterClientAPIImpl.BasicFunctionsImpl;
+
+@SpringBootApplication
+public class SpringTwitterClientApplication {
+
+	public static void main(String[] args) throws Exception {
+		//SpringApplication.run(SpringTwitterClientApplication.class, args);
+		BasicFunctionsImpl b=new BasicFunctionsImpl();
+		b.searchTweet();
+	}
+}

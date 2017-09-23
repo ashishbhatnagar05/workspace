@@ -1,0 +1,7 @@
+package com.ashish.log4j;
+
+public class LoggingExample {
+public static void main(String[] args) {
+	
+}
+}
